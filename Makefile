@@ -3,11 +3,11 @@
 #
 
 all:
-	mkdir -p wwwroot
-	markdown index.md > wwwroot/index.html
-	markdown software.md > wwwroot/software.html
-	cp me.jpg wwwroot/me.jpg
-	cp style.css wwwroot/style.css
+	mkdir -p docs
+	markdown index.md > docs/index.html
+	markdown software.md > docs/software.html
+	cp me.jpg docs/me.jpg
+	cp style.css docs/style.css
 
 clean:
-	rm -rf wwwroot
+	rm -rf docs
