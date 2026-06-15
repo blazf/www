@@ -123,6 +123,25 @@ p {
   margin: 0 0 16px 0;
 }
 
+ul.entries {
+  list-style: none;
+  margin: 0 0 16px 0;
+  padding: 0;
+}
+
+ul.entries li {
+  position: relative;
+  padding-left: 20px;
+  margin-bottom: 10px;
+}
+
+ul.entries li::before {
+  content: "▸";
+  position: absolute;
+  left: 0;
+  color: var(--accent);
+}
+
 a {
   color: var(--accent);
   font-weight: 600;
