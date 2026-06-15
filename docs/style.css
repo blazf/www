@@ -125,7 +125,6 @@ aside.contact img {
   width: 100%;
   max-width: 140px;
   margin-bottom: 16px;
-  filter: grayscale(100%);
 }
 
 aside.contact .field {
