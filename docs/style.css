@@ -37,7 +37,6 @@ body {
 
 /* ─── HEADER ─── */
 header {
-  border-bottom: 1px solid var(--rule);
   padding-bottom: 20px;
   margin-bottom: 30px;
 }
@@ -61,24 +60,11 @@ h1::after {
   50% { opacity: 0; }
 }
 
-nav {
-  font-size: 13px;
+.tagline {
+  margin: 0;
+  font-size: 14px;
+  color: var(--text-muted);
   letter-spacing: 0.02em;
-}
-
-nav a {
-  color: var(--text);
-  text-decoration: none;
-  margin-right: 8px;
-}
-
-nav a:hover {
-  color: var(--accent);
-}
-
-nav span.sep {
-  color: var(--accent-dim);
-  margin-right: 8px;
 }
 
 /* ─── LAYOUT ─── */
